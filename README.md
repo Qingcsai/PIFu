@@ -43,6 +43,9 @@ This codebase provides:
 for training and data generation
 - [trimesh](https://trimsh.org/) with [pyembree](https://github.com/scopatz/pyembree)
 - [pyexr](https://github.com/tvogels/pyexr)
+     * ```sudo apt-get install libopenexr-dev```
+     * ```pip install OpenEXR```
+     * ```pip install pyexr```
 - PyOpenGL
 - freeglut (use `sudo apt-get install freeglut3-dev` for ubuntu users)
 - (optional) egl related packages for rendering with headless machines. (use `apt install libgl1-mesa-dri libegl1-mesa libgbm1` for ubuntu users)
